@@ -29,5 +29,12 @@ public class Board {
         this.columns = columns;
     }
     
+    public Piece piece(int row, int column){  //Retorna a matrix peice do tipo Piece em nas posições row e column
+        return pieces[row][column];
+        
+    }
     
+    public Piece piece(Position position){ //Retorna a peça pela posição position do tipo Position
+        return pieces[position.getRow()][position.getColum()];
+    }
 }
