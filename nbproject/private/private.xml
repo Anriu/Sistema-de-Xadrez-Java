@@ -5,8 +5,7 @@
         <group>
             <file>file:/C:/Users/Ana%20Paula/Documents/NetBeansProjects/SistemaXadrez/src/application/Program.java</file>
             <file>file:/C:/Users/Ana%20Paula/Documents/NetBeansProjects/SistemaXadrez/src/boardgamer/Board.java</file>
-            <file>file:/C:/Users/Ana%20Paula/Documents/NetBeansProjects/SistemaXadrez/src/boardgamer/Piece.java</file>
-            <file>file:/C:/Users/Ana%20Paula/Documents/NetBeansProjects/SistemaXadrez/src/boardgamer/Position.java</file>
+            <file>file:/C:/Users/Ana%20Paula/Documents/NetBeansProjects/SistemaXadrez/src/boardgamer/BoardException.java</file>
         </group>
     </open-files>
 </project-private>
