@@ -26,12 +26,15 @@ public class ChessMatch {
         }
         return mat;
     }
+   
     
-   private void initialSetup(){ //Coloca as peças no tabuleiro na posição inicial.
-     board.placePiece(new Rook(board, Color.WHITE), new Position(0, 0));
-     board.placePiece(new King(board, Color.BLACk), new Position(0, 4));
-     board.placePiece(new King(board, Color.WHITE), new Position(7, 4));
-
+    private void placeNewPiece(char column, int row, ChessPiece piece){
+        board.placePiece(piece, new ChessPosition(column, row).toPosition());
+    }
+    
+    private void initialSetup(){ //Coloca as peças no tabuleiro na posição inicial.
+        placeNewPiece('a', 8, new Rook(board, Color.WHITE));
+        placeNewPiece('h', 8, new Rook(board, Color.WHITE));
    } 
     
 }
